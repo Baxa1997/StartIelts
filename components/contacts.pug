@@ -1,0 +1,34 @@
+section.contacts#contacts 
+    .container.contacts__container 
+        h2.contacts__title Contact Us 
+        p.contacts__subtitle If You See Something - Say Something!
+        .row 
+            .col-lg-3.col-md-3 
+                .contacts__info 
+                    <i class="ri-map-pin-fill"></i>
+                    .contacts__info-text 
+                        h2.contacts__info-title Address
+                        p.contacts__info-subtitle 5 Durkin Drive, Rhode Island, 04915 Narragansett, United States
+                .contacts__info 
+                    <i class="ri-phone-fill"></i>
+                    .contacts__info-text 
+                        h2.contacts__info-title Phone
+                        a.contacts__info-subtitle(href="tel:+998977116812")  +998709351035, +998977116812
+                .contacts__info 
+                    <i class="ri-mail-unread-fill"></i>
+                    .contacts__info-text 
+                        h2.contacts__info-title Email
+                        p.contacts__info-subtitle bahriddin.nurullayev@mail.ru, bahridnurullayev@gmail.com, onlyonenumber@gmail.com
+            .col-lg-8.col-md-8 
+                 form.contacts__form(action="")
+                    .contacts__form-inputs 
+                        input(type="text" class="form-control contacts__form-input" placeholder="YOUR NAME")            
+                        input(type="text" class="form-control contacts__form-input" placeholder="YOUR SURNAME")            
+                    .contacts__form-inputs 
+                        input(type="text" class="form-control contacts__form-input" placeholder="YOUR EMAIL")            
+                        input(type="text" class="form-control contacts__form-input" placeholder="YOUR PHONE NUMBER")      
+                    textarea.contacts__form-textarea(name="", cols="30", rows="10" placeholder="WRITE YOUR MESSAGE")
+                    .contacts__form-foot 
+                        button.contacts__form-button(type="submit") Send message
+                        p.contacts__form-text <i class="ri-star-s-fill"></i> We’ll contact you as as possible. We don’t reply on Monday.
+                        
